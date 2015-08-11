@@ -1,0 +1,22 @@
+{
+  "name": "@lib/dependency-example",
+  "version": "0.0.1",
+  "description": "Another example of a TypeScript-based package",
+  "main": "dist/dependency-example.js",
+  "scripts": {
+    "install": "autodts link",
+    "prepublish": "tsc && autodts generate"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "dependencies": {
+    "autodts": "~0.0.2"
+  },
+  "devDependencies": {
+    "dts-generator": "~1.5.0",
+    "typescript": "~1.5.3"
+  }
+}

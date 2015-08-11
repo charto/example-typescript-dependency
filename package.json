@@ -4,8 +4,7 @@
   "description": "Another example of a TypeScript-based package",
   "main": "dist/dependency-example.js",
   "scripts": {
-    "install": "autodts link",
-    "prepublish": "tsc && autodts generate"
+    "prepublish": "autodts link && tsc && autodts generate"
   },
   "author": "Juha Järvi",
   "license": "MIT",

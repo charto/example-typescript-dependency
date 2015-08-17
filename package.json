@@ -1,6 +1,6 @@
 {
   "name": "@lib/dependency-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Another example of a TypeScript-based package",
   "main": "dist/dependency-example.js",
   "scripts": {
